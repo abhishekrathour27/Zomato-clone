@@ -264,6 +264,29 @@ main {
     display: flex;
     gap: 20px;
 }
+.explore{
+    height: 60vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    gap: 20px;
+}
+.explore h1{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.explore .txt{
+    height: 70px;
+    width: 70vw;
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 8px;
+}
+.explore .txt p{
+    padding: 25px;
+    font-weight: 100;
+}
 
 
 
@@ -392,6 +415,7 @@ main {
         width: auto;
         overflow-x: hidden;
         margin-top: 20px;
+        height: max-content;
     }
     .mail-cont .right{
         display: flex;
